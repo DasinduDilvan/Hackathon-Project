@@ -83,10 +83,10 @@ async function seed() {
       // Admin
       {
         name: "Platform Admin",
-        email: "admin@skillbridge.com",
+        email: "admin@skill2earn.com",
         password: hashedPassword,
         role: "admin",
-        bio: "SkillBridge platform administrator.",
+        bio: "Skill2Earn platform administrator.",
       },
     ]);
 
@@ -378,7 +378,7 @@ async function seed() {
       },
       {
         title: "Rising Star",
-        description: "Earn 1000 points on SkillBridge.",
+        description: "Earn 1000 points on Skill2Earn.",
         pointsRequired: 1000,
         icon: "⭐",
       },
@@ -532,7 +532,7 @@ async function seed() {
         student: amir._id,
         opportunity: opportunities[1]._id, // Website Development Project
         coverMessage:
-          "Hi, I have completed the HTML, CSS and JavaScript courses on SkillBridge. I would love to build this website and add it to my portfolio. I am a fast learner and will deliver good quality work.",
+          "Hi, I have completed the HTML, CSS and JavaScript courses on Skill2Earn. I would love to build this website and add it to my portfolio. I am a fast learner and will deliver good quality work.",
         status: "accepted",
       },
       {
@@ -566,7 +566,7 @@ async function seed() {
     console.log("Student 2:  siti@student.com     / password123");
     console.log("Provider 1: techstart@provider.com / password123");
     console.log("Provider 2: warisan@provider.com   / password123");
-    console.log("Admin:      admin@skillbridge.com  / password123");
+    console.log("Admin:      admin@skill2Earn.com  / password123");
     console.log("────────────────────────────────────────────────────\n");
 
     await mongoose.disconnect();

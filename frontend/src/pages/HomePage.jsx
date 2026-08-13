@@ -39,7 +39,7 @@ export default function HomePage() {
             <span className="text-teal">can change everything.</span>
           </h1>
           <p className="hero-text">
-            SkillBridge helps university students turn focused learning into proof,
+            Skill2Earn helps university students turn focused learning into proof,
             paid opportunities, and a career that keeps moving.
           </p>
           <div className="hero-buttons">

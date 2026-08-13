@@ -1,15 +1,16 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
+import myLogo from '../../public/logo.svg'
 
 const STEPS = [
   {
     id: 1,
     icon: '👋',
-    title: 'Welcome to SkillBridge!',
+    title: 'Welcome to Skill2Earn!',
     subtitle: 'Your journey to new skills starts here.',
     description:
-      'SkillBridge is a learning platform designed to help you grow professionally. ' +
+      'Skill2Earn is a learning platform designed to help you grow professionally. ' +
       'Complete courses, earn points, and build a portfolio that gets you hired.',
     visual: 'welcome',
     tips: [
@@ -23,7 +24,7 @@ const STEPS = [
     id: 2,
     icon: '🗺️',
     title: 'Explore the Platform',
-    subtitle: 'Here is everything you can do on SkillBridge.',
+    subtitle: 'Here is everything you can do on Skill2Earn.',
     description:
       'Navigate through different sections of the platform to make the most ' +
       'of your learning experience.',
@@ -119,7 +120,7 @@ const STEPS = [
     title: 'Points & Rewards',
     subtitle: 'Get rewarded for every skill you learn.',
     description:
-      'SkillBridge has a points system that tracks your learning achievements ' +
+      'Skill2Earn has a points system that tracks your learning achievements ' +
       'and unlocks new levels and badges as you grow.',
     visual: 'points',
     pointsInfo: [
@@ -251,8 +252,8 @@ export default function OnboardingPage() {
       {/* ── Top Bar ── */}
       <div className="ob-topbar">
         <div className="ob-logo">
-          <span className="ob-logo-icon">⚡</span>
-          <span className="ob-logo-text">SkillBridge</span>
+            <span className="nav-logo-icon">S2E</span>
+          <span className="ob-logo-text">Skill2Earn</span>
         </div>
 
         <div className="ob-topbar-center">
